@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
         <div className="w-full lg:w-[50%] flex justify-center lg:justify-end animate-hero-slide-right delay-200">
           <div className="relative w-full max-w-[540px] lg:max-w-none flex items-center justify-center animate-float-gentle">
             <Image
-              src="/images/home/hero/hero-section-image-2.png"
+              src="/images/home/hero/hero-section-image-0.png"
               alt="Socially Relevant Promo digital marketing and branded promotional merchandise mockup"
               width={703}
               height={491}
