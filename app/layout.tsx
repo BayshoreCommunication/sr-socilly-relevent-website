@@ -11,10 +11,40 @@ const lora = Lora({
   display: "swap",
 });
 
+const baseUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL
+    ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+    : process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "https://sr-socilly-relevent-website.vercel.app");
+
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000"),
+  metadataBase: new URL(baseUrl),
   title: "SR - Socially Relevant Promo",
   description: "Promoting meaningful ideas and socially relevant media.",
+  openGraph: {
+    title: "SR - Socially Relevant Promo",
+    description: "Promoting meaningful ideas and socially relevant media.",
+    url: "https://sr-socilly-relevent-website.vercel.app",
+    siteName: "SR - Socially Relevant Promo",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "SR - Socially Relevant Promo",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SR - Socially Relevant Promo",
+    description: "Promoting meaningful ideas and socially relevant media.",
+    images: ["/opengraph-image.png"],
+  },
 };
 
 export default function RootLayout({
