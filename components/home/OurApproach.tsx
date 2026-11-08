@@ -5,22 +5,25 @@ import Container from "../shared/Container";
 
 export const OurApproach: React.FC = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-[#0a0103] py-16 sm:py-20 md:py-24 lg:py-28 border-b border-[#2b0407]">
-      {/* Background Image */}
-      <div className="absolute inset-0 pointer-events-none select-none -z-10">
+    <section
+      className="relative w-full overflow-hidden py-16 sm:py-20 md:py-24 lg:py-28 border-b border-[#2b0407] bg-[#0a0103] bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: "url('/images/home/our-approch/our-approch-bg.png')",
+      }}
+    >
+      {/* High-res Image overlay element for optimal Next.js rendering */}
+      <div className="absolute inset-0 pointer-events-none select-none z-0">
         <Image
           src="/images/home/our-approch/our-approch-bg.png"
           alt="Our 360° Approach Background"
           fill
-          priority={false}
+          priority
           sizes="100vw"
-          className="object-cover object-center opacity-95"
+          className="object-cover object-center"
         />
-        {/* Subtle gradient vignette to blend seamlessly */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-black/30" />
       </div>
 
-      <Container>
+      <Container className="relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Left Column: Text Content */}
           <div className="lg:col-span-6 flex flex-col items-start text-left z-10">
