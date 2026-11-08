@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import Container from "./Container";
-import { NavItem } from "./NavLink";
 import { navItems } from "./nav-data";
 
 export const Navbar: React.FC = () => {
