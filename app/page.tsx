@@ -3,6 +3,8 @@ import TrustedBy from "@/components/home/TrustedBy";
 import IndustriesWeServe from "@/components/home/IndustriesWeServe";
 import OurServices from "@/components/home/OurServices";
 import OurApproach from "@/components/home/OurApproach";
+import RealResults from "@/components/home/RealResults";
+import FeaturedProducts from "@/components/home/FeaturedProducts";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <IndustriesWeServe />
       <OurServices />
       <OurApproach />
+      <RealResults />
+      <FeaturedProducts />
     </div>
   );
 }
