@@ -23,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lora.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col bg-[#fffceb] text-[#171717] font-lora">
+    <html lang="en" suppressHydrationWarning className={`${lora.variable} h-full antialiased`}>
+      <body suppressHydrationWarning className="min-h-full flex flex-col bg-[#fffceb] text-[#171717] font-lora">
         <Navbar />
         <main className="flex-1 flex flex-col">{children}</main>
         <Footer />
