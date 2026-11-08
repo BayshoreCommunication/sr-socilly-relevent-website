@@ -1,6 +1,7 @@
 import Hero from "@/components/home/Hero";
 import TrustedBy from "@/components/home/TrustedBy";
 import IndustriesWeServe from "@/components/home/IndustriesWeServe";
+import OurServices from "@/components/home/OurServices";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <TrustedBy />
       <IndustriesWeServe />
+      <OurServices />
     </div>
   );
 }
