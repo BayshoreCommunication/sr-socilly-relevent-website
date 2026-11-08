@@ -58,17 +58,31 @@ export const OurApproach: React.FC = () => {
             </Link>
           </div>
 
-          {/* Right Column: 360 Graphic Image */}
-          <div className="lg:col-span-6 flex items-center justify-center z-10 mt-4 lg:mt-0">
-            <div className="relative w-full max-w-[560px] aspect-[1371/1148] flex items-center justify-center">
-              <Image
-                src="/images/home/our-approch/360.png"
-                alt="Our 360° Approach - Strategy, Execute, Connect, Amplify, Grow"
-                fill
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 520px, 560px"
-                className="object-contain drop-shadow-[0_12px_36px_rgba(0,0,0,0.6)] transition-transform duration-500 hover:scale-[1.02]"
-                priority
-              />
+          {/* Right Column: 360 Graphic Image with multi-layer animation */}
+          <div className="lg:col-span-6 flex items-center justify-center z-10 mt-6 lg:mt-0">
+            <div className="relative w-full max-w-[560px] aspect-[1371/1148] flex items-center justify-center group">
+              {/* 1. Pulsing Ambient Glow Aura */}
+              <div className="absolute inset-0 m-auto w-[72%] h-[72%] rounded-full bg-gradient-to-tr from-[#98141c]/45 via-[#d32f2f]/30 to-[#f59e0b]/20 blur-3xl pointer-events-none transition-all duration-700 group-hover:scale-110 group-hover:opacity-85 animate-approach-glow" />
+
+              {/* 2. Rotating Circular Orbit Accent Ring with glowing beads */}
+              <div className="absolute inset-0 m-auto w-[86%] h-[86%] rounded-full border border-dashed border-[#ffcf73]/30 pointer-events-none animate-approach-orbit">
+                {/* Orbiting glowing bead 1 (gold) */}
+                <div className="absolute -top-1.5 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-[#ffcf73] shadow-[0_0_12px_#ffcf73]" />
+                {/* Orbiting glowing bead 2 (ruby red) */}
+                <div className="absolute -bottom-1.5 left-1/2 -translate-x-1/2 w-2.5 h-2.5 rounded-full bg-[#e53935] shadow-[0_0_10px_#e53935]" />
+              </div>
+
+              {/* 3. Floating 360 Graphic Image */}
+              <div className="relative w-full h-full flex items-center justify-center animate-approach-float">
+                <Image
+                  src="/images/home/our-approch/360.png"
+                  alt="Our 360° Approach - Strategy, Execute, Connect, Amplify, Grow"
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 520px, 560px"
+                  className="object-contain drop-shadow-[0_16px_45px_rgba(0,0,0,0.7)] transition-transform duration-500 group-hover:scale-[1.03]"
+                  priority
+                />
+              </div>
             </div>
           </div>
         </div>

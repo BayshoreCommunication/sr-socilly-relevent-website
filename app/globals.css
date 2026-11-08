@@ -120,3 +120,48 @@ body {
 .delay-800 {
   animation-delay: 800ms;
 }
+
+/* 360 Approach Animations */
+@keyframes approach-float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(1.2deg);
+  }
+}
+
+@keyframes approach-orbit {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes approach-glow {
+  0%, 100% {
+    opacity: 0.35;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.65;
+    transform: scale(1.08);
+  }
+}
+
+.animate-approach-float {
+  animation: approach-float 6s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-approach-orbit {
+  animation: approach-orbit 35s linear infinite;
+  will-change: transform;
+}
+
+.animate-approach-glow {
+  animation: approach-glow 5s ease-in-out infinite;
+  will-change: transform, opacity;
+}
