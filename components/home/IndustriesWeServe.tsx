@@ -47,7 +47,7 @@ export const industryCards: IndustryCardItem[] = [
 
 export const IndustriesWeServe: React.FC = () => {
   return (
-    <section className="w-full bg-[#fffceb] py-16 sm:py-20 md:py-24 border-b border-[#ebdcb3]">
+    <section id="industries" className="scroll-mt-24 w-full bg-[#fffceb] py-16 sm:py-20 md:py-24 border-b border-[#ebdcb3]">
       <Container>
         {/* Section Header */}
         <div className="max-w-4xl mb-10 sm:mb-14">

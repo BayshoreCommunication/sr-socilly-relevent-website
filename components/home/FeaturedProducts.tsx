@@ -51,7 +51,7 @@ export const FEATURED_PRODUCTS_DATA: FeaturedProductItem[] = [
 
 export const FeaturedProducts: React.FC = () => {
   return (
-    <section className="w-full bg-[#d5cbc9] py-16 sm:py-20 md:py-24 border-b border-[#c2b6b4]">
+    <section id="products" className="scroll-mt-24 w-full bg-[#d5cbc9] py-16 sm:py-20 md:py-24 border-b border-[#c2b6b4]">
       <Container>
         {/* Section Header */}
         <div className="max-w-4xl mb-10 sm:mb-12 md:mb-14">

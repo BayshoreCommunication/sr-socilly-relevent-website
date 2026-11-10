@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lora } from "next/font/google";
 import Navbar from "@/components/shared/Navbar";
+import Breadcrumb from "@/components/shared/Breadcrumb";
 import Footer from "@/components/shared/Footer";
 import "./globals.css";
 
@@ -56,6 +57,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning className={`${lora.variable} h-full antialiased`}>
       <body suppressHydrationWarning className="min-h-full flex flex-col bg-[#fffceb] text-[#171717] font-lora">
         <Navbar />
+        <Breadcrumb />
         <main className="flex-1 flex flex-col">{children}</main>
         <Footer />
       </body>

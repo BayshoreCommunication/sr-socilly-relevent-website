@@ -4,10 +4,8 @@ import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-export interface NavItem {
-  label: string;
-  href: string;
-}
+import { NavItem } from "./nav-data";
+export type { NavItem };
 
 interface NavLinkProps {
   item: NavItem;

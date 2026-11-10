@@ -263,7 +263,7 @@ export const servicesData: ServiceItem[] = [
 
 export const OurServices: React.FC = () => {
   return (
-    <section className="w-full">
+    <section id="services" className="scroll-mt-24 w-full">
       {/* 1. Header Banner */}
       <div className="w-full relative overflow-hidden bg-gradient-to-r from-[#7d0b11] via-[#460509] to-[#0c0103] py-8 sm:py-10 md:py-11 border-b border-[#5e070d]">
         {/* Subtle geometric light accent line across bottom left */}

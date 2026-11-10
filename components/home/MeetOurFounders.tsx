@@ -64,7 +64,7 @@ export const MeetOurFounders: React.FC = () => {
                 </div>
 
                 <Link
-                  href="#contact"
+                  href="/about#team-jessica"
                   className="self-start sm:self-auto px-5 sm:px-6 py-2 sm:py-2.5 rounded-full bg-gradient-to-r from-[#98141c] via-[#800b10] to-[#60060a] hover:from-[#aa1821] hover:to-[#760e14] text-white text-xs sm:text-[13px] font-medium shadow-sm hover:scale-105 active:scale-95 transition-all duration-300 whitespace-nowrap"
                 >
                   Watch Her Story
@@ -98,7 +98,7 @@ export const MeetOurFounders: React.FC = () => {
               {/* Bottom Row: Button (Left) + Name/Title (Right) */}
               <div className="flex flex-col-reverse sm:flex-row sm:items-end justify-between gap-3 pt-1">
                 <Link
-                  href="#contact"
+                  href="/about#team-paul"
                   className="self-start sm:self-auto px-5 sm:px-6 py-2 sm:py-2.5 rounded-full bg-gradient-to-r from-[#98141c] via-[#800b10] to-[#60060a] hover:from-[#aa1821] hover:to-[#760e14] text-white text-xs sm:text-[13px] font-medium shadow-sm hover:scale-105 active:scale-95 transition-all duration-300 whitespace-nowrap"
                 >
                   Watch His Story

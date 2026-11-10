@@ -5,7 +5,7 @@ import Container from "../shared/Container";
 
 export const Pricing: React.FC = () => {
   return (
-    <section className="w-full bg-[#fffceb] py-16 sm:py-20 md:py-24 border-b border-[#ebdcb3]">
+    <section id="pricing" className="scroll-mt-24 w-full bg-[#fffceb] py-16 sm:py-20 md:py-24 border-b border-[#ebdcb3]">
       <Container>
         {/* Section Header - Centered */}
         <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
