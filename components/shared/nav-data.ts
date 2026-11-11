@@ -15,20 +15,20 @@ export const SERVICES_DROPDOWN_ITEMS: SubNavItem[] = [
     href: "/services/promotional-products",
   },
   {
-    title: "SEO & AIO",
-    href: "/services/seo-aio",
-  },
-  {
-    title: "Event and Campaign Strategy",
+    title: "Event & Campaign Strategy",
     href: "/services/event-and-campaign-strategy",
   },
   {
-    title: "Business Apparels",
+    title: "Business Apparel",
     href: "/services/business-apparels",
   },
   {
     title: "Digital Marketing Strategy",
     href: "/services/digital-marketing-strategy",
+  },
+  {
+    title: "SEO & AIO",
+    href: "/services/seo-aio",
   },
 ];
 

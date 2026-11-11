@@ -26,6 +26,7 @@ export interface ServiceDetail {
 }
 
 export const SERVICES_LIST: ServiceDetail[] = [
+  // 1. Promotional Products
   {
     slug: "promotional-products",
     title: "Promotional Products",
@@ -60,117 +61,48 @@ export const SERVICES_LIST: ServiceDetail[] = [
     processSteps: [
       {
         step: "01",
-        title: "Discovery & Budget Architecture",
+        title: "Consultation & Strategic Discovery",
         description:
-          "We analyze your audience, timeline, and budget parameters to curate a targeted selection of products with maximum perceived value.",
+          "We analyze your audience, event timeline, brand standards, and budget parameters to identify highest-impact items.",
       },
       {
         step: "02",
-        title: "Free Digital Proof & Visual Mockup",
+        title: "Curated Lookbook & Free Samples",
         description:
-          "Our design studio creates scale-accurate virtual proofs with Pantone PMS color matching so you see your brand exactly as produced.",
+          "Receive a custom digital presentation with virtual proofs showing your logo on selected top-tier products.",
       },
       {
         step: "03",
-        title: "Precision Manufacturing & QC",
+        title: "Precision Sourcing & Decoration",
         description:
-          "We partner with over 1,000 certified ethical factories with strict pre-shipment quality audits on every single production run.",
+          "High-resolution laser engraving, full-color digital direct print, or subtle debossing executed to exact PMS standards.",
       },
       {
         step: "04",
-        title: "Kitting & Multi-Address Drop Shipping",
+        title: "Kitting, Fulfillment & Delivery",
         description:
-          "We handle individual recipient kitting, custom presentation packaging, and reliable trackable delivery across the United States.",
+          "We inspect, hand-kit with custom tissue packaging, and drop-ship directly to your office or attendee doorsteps.",
       },
     ],
     stats: [
-      { value: "83%", label: "Of clients keep branded promotional items over a year" },
-      { value: "1,000+", label: "Verified ethical production partners" },
-      { value: "100%", label: "Pre-production digital proof guarantee" },
+      { value: "85%", label: "Of recipients remember the advertiser that gave them a promo item" },
+      { value: "7-10", label: "Business days standard turnaround with rush options available" },
+      { value: "10,000+", label: "Verified ethically sourced premium catalog items" },
     ],
     deliverables: [
-      "Custom branded product deck tailored to your firm",
-      "Scale virtual digital proofs before any production starts",
-      "Volume bulk price tier schedule with zero hidden fees",
+      "Custom digital product mockup deck within 24 business hours",
+      "Exact Pantone (PMS) color-matched decoration",
+      "Kitting and custom branded packaging options",
       "Consolidated master shipping or individual recipient drop shipping",
     ],
     ctaText: "Browse Online Product Catalog",
     ctaHref: "/products",
   },
-  {
-    slug: "seo-aio",
-    title: "SEO & AIO",
-    kicker: "Next-Generation Search Visibility",
-    badge: "Cutting-Edge",
-    tagline:
-      "Increase your search visibility and appear in both traditional and AI-powered search results to attract more clients.",
-    overview:
-      "Modern search has evolved beyond traditional keyword rankings. Today's prospective clients search on Google, ChatGPT, Perplexity, and Google Gemini AI Overviews. Our dual-engine SEO & AIO methodology optimizes your entity authority, structured data, and high-intent content to dominate both algorithmic search and generative AI summaries.",
-    keyOfferings: [
-      {
-        title: "AI Overview (AIO) Optimization",
-        description:
-          "Structure your brand's knowledge base so AI search engines cite and recommend your firm as the leading authority in your region.",
-      },
-      {
-        title: "Technical & Core Web Vitals Audit",
-        description:
-          "Resolve crawl errors, schema markup gaps, page speed bottlenecks, and mobile rendering hurdles to ensure indexation dominance.",
-      },
-      {
-        title: "High-Intent Semantic Content Strategy",
-        description:
-          "Publish answer-focused guides, case studies, and FAQ hubs engineered to capture high-value prospective clients ready to convert.",
-      },
-      {
-        title: "Local Authority & Digital Citations",
-        description:
-          "Reinforce Google Business Profile, local directory synchronization, and trusted community backlinks that cement regional prominence.",
-      },
-    ],
-    processSteps: [
-      {
-        step: "01",
-        title: "AI Engine & Organic Audit",
-        description:
-          "We benchmark your visibility across Google, ChatGPT, and Perplexity against your top 3 local competitors.",
-      },
-      {
-        step: "02",
-        title: "Knowledge Graph & Entity Structuring",
-        description:
-          "Implement advanced Schema.org JSON-LD microdata establishing who you are, what you do, and why you are verified.",
-      },
-      {
-        step: "03",
-        title: "High-Impact Content Publishing",
-        description:
-          "Produce authoritative, human-crafted editorial assets that answer complex client inquiries and earn high-tier citations.",
-      },
-      {
-        step: "04",
-        title: "Citation Tracking & Growth Reporting",
-        description:
-          "Real-time visibility into keyword rankings, organic lead conversions, and generative AI search mentions.",
-      },
-    ],
-    stats: [
-      { value: "+180%", label: "Average organic traffic growth within 6 months" },
-      { value: "Top 3", label: "Citation placement across AI search engines" },
-      { value: "100%", label: "Strict white-hat compliance with Google guidelines" },
-    ],
-    deliverables: [
-      "Full technical SEO & generative AI visibility diagnostic report",
-      "Structured Schema.org implementation across your entire website",
-      "Monthly published thought leadership & target search articles",
-      "Transparent 24/7 client analytics dashboard with conversion tracking",
-    ],
-    ctaText: "Request Free Search Visibility Audit",
-    ctaHref: "/contact",
-  },
+
+  // 2. Event & Campaign Strategy
   {
     slug: "event-and-campaign-strategy",
-    title: "Event and Campaign Strategy",
+    title: "Event & Campaign Strategy",
     kicker: "Experiential Impact & Lead Generation",
     badge: "High Impact",
     tagline:
@@ -179,69 +111,71 @@ export const SERVICES_LIST: ServiceDetail[] = [
       "Whether you are hosting an intimate client appreciation dinner, exhibiting at a premier national trade conference, or launching a multi-channel quarterly awareness campaign, we provide the cohesive strategy, eye-catching displays, and tactile collateral required to command attention and turn attendees into valuable clients.",
     keyOfferings: [
       {
-        title: "Trade Show Booth Exhibits & Banners",
+        title: "Trade Show Booth Architecture & Displays",
         description:
-          "Dye-sublimated tension fabric backdrops, retractable roll-up displays, and wrinkle-free stretch table covers that stop aisle traffic.",
+          "Tension-fabric step-and-repeats, illuminated backdrop towers, branded tablecloths, and banners engineered for seamless assembly.",
       },
       {
-        title: "VIP Attendee Swag & Welcome Packs",
+        title: "Curated VIP Welcome & Speaker Swag Bags",
         description:
-          "Curated conference kits, event badge lanyards, executive notebooks, and custom giveaway merchandise attendees fight over.",
+          "Hand-assembled premium gift sets that delight keynotes, sponsors, and VIP attendees from the moment they check in.",
       },
       {
-        title: "Pre-Event Digital Buzz & Promotion",
+        title: "Interactive Lead-Capture Experiences",
         description:
-          "Targeted email invitations, social media campaigns, and landing pages that maximize event registration and booth visits.",
+          "Gamified trade show prize wheels, NFC business card touchpoints, and digital QR raffle giveaways that generate verified prospect data.",
       },
       {
-        title: "Post-Event Lead Nurturing Workflows",
+        title: "Omnichannel Campaign Collateral",
         description:
-          "Automated follow-up campaigns and tactile thank-you mailers that bridge event conversations into closed contracts.",
+          "Matching physical invitations, presentation folders, print brochures, and digital follow-up assets for complete campaign harmony.",
       },
     ],
     processSteps: [
       {
         step: "01",
-        title: "Event Theme & Objective Architecture",
+        title: "Event Scope & Objective Mapping",
         description:
-          "Define measurable targets for booth foot traffic, lead acquisition, and brand visibility based on event demographics.",
+          "We define your target attendee demographics, lead generation targets, booth footprint, and logistics constraints.",
       },
       {
         step: "02",
-        title: "Environmental & Collateral Design",
+        title: "Concept Renderings & Collateral Selection",
         description:
-          "Create complete 3D mockups of your booth layout, banner displays, presentation materials, and matching swag pieces.",
+          "Visual 3D booth mockups and custom-curated merchandise collections aligned with your booth theme.",
       },
       {
         step: "03",
-        title: "Production & Venue Direct Logistics",
+        title: "Production & Venue Logistics Coordination",
         description:
-          "Manufacture and ship all collateral directly to convention centers or hotels with advance marshaling guarantee.",
+          "We liaise with convention centers and freight handlers to guarantee delivery straight to your advance warehouse or booth dock.",
       },
       {
         step: "04",
-        title: "Post-Event Conversion Activation",
+        title: "Post-Event Follow-Up Integration",
         description:
-          "Deploy multi-touch follow-up email sequences and personalized client gifts within 48 hours of event completion.",
+          "Synchronize newly acquired attendee lists with your digital nurture sequences and post-event gift mailers.",
       },
     ],
     stats: [
-      { value: "3.2x", label: "Higher trade show booth visitor engagement" },
-      { value: "100%", label: "On-time convention venue delivery guarantee" },
-      { value: "48 Hr", label: "Rapid post-event lead activation turnaround" },
+      { value: "3.2x", label: "Average increase in booth dwell time and qualified badge scans" },
+      { value: "100%", label: "On-time convention center delivery track record nationwide" },
+      { value: "Full-Funnel", label: "Pre-event buzz, on-site activation, and post-event nurture" },
     ],
     deliverables: [
-      "Custom 3D trade show booth layout & graphic design blueprints",
-      "Complete exhibit hardware (retractable banners, table throws, backdrops)",
-      "Branded event attendee swag bags and high-retention collateral",
-      "Digital campaign promotional graphics and follow-up email templates",
+      "Custom 3D booth layout & graphic dimension specifications",
+      "Fully inspected display hardware and custom printed tension fabrics",
+      "Packaged VIP attendee swag gift boxes ready for presentation",
+      "Post-event marketing nurture campaign blueprint",
     ],
     ctaText: "Plan Your Next Event Strategy",
     ctaHref: "/contact",
   },
+
+  // 3. Business Apparel
   {
     slug: "business-apparels",
-    title: "Business Apparels",
+    title: "Business Apparel",
     kicker: "Corporate Identity & Wardrobing",
     badge: "Brand Essential",
     tagline:
@@ -310,6 +244,8 @@ export const SERVICES_LIST: ServiceDetail[] = [
     ctaText: "Explore Business Apparel Options",
     ctaHref: "/products",
   },
+
+  // 4. Digital Marketing Strategy
   {
     slug: "digital-marketing-strategy",
     title: "Digital Marketing Strategy",
@@ -381,6 +317,79 @@ export const SERVICES_LIST: ServiceDetail[] = [
     ctaText: "Schedule a Digital Strategy Session",
     ctaHref: "/contact",
   },
+
+  // 5. SEO & AIO
+  {
+    slug: "seo-aio",
+    title: "SEO & AIO",
+    kicker: "Next-Generation Search Visibility",
+    badge: "Cutting-Edge",
+    tagline:
+      "Increase your search visibility and appear in both traditional and AI-powered search results to attract more clients.",
+    overview:
+      "Modern search has evolved beyond traditional keyword rankings. Today's prospective clients search on Google, ChatGPT, Perplexity, and Google Gemini AI Overviews. Our dual-engine SEO & AIO methodology optimizes your entity authority, structured data, and high-intent content to dominate both algorithmic search and generative AI summaries.",
+    keyOfferings: [
+      {
+        title: "AI Overview (AIO) Optimization",
+        description:
+          "Structure your brand's knowledge base so AI search engines cite and recommend your firm as the leading authority in your region.",
+      },
+      {
+        title: "Technical & Core Web Vitals Audit",
+        description:
+          "Resolve crawl errors, schema markup gaps, page speed bottlenecks, and mobile rendering hurdles to ensure indexation dominance.",
+      },
+      {
+        title: "High-Intent Semantic Content Strategy",
+        description:
+          "Publish answer-focused guides, case studies, and FAQ hubs engineered to capture high-value prospective clients ready to convert.",
+      },
+      {
+        title: "Local Authority & Digital Citations",
+        description:
+          "Reinforce Google Business Profile, local directory synchronization, and trusted community backlinks that cement regional prominence.",
+      },
+    ],
+    processSteps: [
+      {
+        step: "01",
+        title: "AI Engine & Organic Audit",
+        description:
+          "We benchmark your visibility across Google, ChatGPT, and Perplexity against your top 3 local competitors.",
+      },
+      {
+        step: "02",
+        title: "Knowledge Graph & Entity Structuring",
+        description:
+          "Implement advanced Schema.org JSON-LD microdata establishing who you are, what you do, and why you are verified.",
+      },
+      {
+        step: "03",
+        title: "High-Impact Content Publishing",
+        description:
+          "Produce authoritative, human-crafted editorial assets that answer complex client inquiries and earn high-tier citations.",
+      },
+      {
+        step: "04",
+        title: "Citation Tracking & Growth Reporting",
+        description:
+          "Real-time visibility into keyword rankings, organic lead conversions, and generative AI search mentions.",
+      },
+    ],
+    stats: [
+      { value: "+180%", label: "Average organic traffic growth within 6 months" },
+      { value: "Top 3", label: "Citation placement across AI search engines" },
+      { value: "100%", label: "Strict white-hat compliance with Google guidelines" },
+    ],
+    deliverables: [
+      "Full technical SEO & generative AI visibility diagnostic report",
+      "Structured Schema.org implementation across your entire website",
+      "Monthly published thought leadership & target search articles",
+      "Transparent 24/7 client analytics dashboard with conversion tracking",
+    ],
+    ctaText: "Request Free Search Visibility Audit",
+    ctaHref: "/contact",
+  },
 ];
 
 export function getServiceBySlug(slug: string): ServiceDetail | undefined {
@@ -390,4 +399,3 @@ export function getServiceBySlug(slug: string): ServiceDetail | undefined {
 export function getOtherServices(currentSlug: string): ServiceDetail[] {
   return SERVICES_LIST.filter((s) => s.slug !== currentSlug);
 }
-

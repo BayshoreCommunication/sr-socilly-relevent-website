@@ -37,7 +37,7 @@ export const IndustriesPageClient: React.FC = () => {
                 alt={`${item.category} ${item.title}`}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-108"
+                className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-108"
               />
 
               {/* Base Gradient Overlay */}
@@ -110,7 +110,7 @@ export const IndustriesPageClient: React.FC = () => {
                 className="scroll-mt-24 rounded-3xl bg-white border border-[#ebdcb3] p-6 sm:p-10 md:p-12 shadow-sm overflow-hidden"
               >
                 <div
-                  className={`grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center ${
+                  className={`grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start ${
                     isEven ? "" : "lg:flex-row-reverse"
                   }`}
                 >
@@ -122,7 +122,7 @@ export const IndustriesPageClient: React.FC = () => {
                         alt={`${ind.category} ${ind.title}`}
                         fill
                         sizes="(max-width: 1024px) 100vw, 40vw"
-                        className="object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                        className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-[#5a090e]/85 via-transparent to-transparent" />
                       {ind.badge && (

@@ -73,23 +73,23 @@ export const Footer: React.FC = () => {
             <ul className="space-y-1.5 sm:space-y-2 font-lora text-[13.5px] sm:text-sm text-[#3a332a]">
               <li className="flex items-center gap-2">
                 <span className="text-[#761318] text-xs leading-none">•</span>
+                <span>Promotional Products</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#761318] text-xs leading-none">•</span>
+                <span>Event & Campaign Strategy</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#761318] text-xs leading-none">•</span>
+                <span>Business Apparel</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-[#761318] text-xs leading-none">•</span>
                 <span>Digital Marketing Strategy</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-[#761318] text-xs leading-none">•</span>
                 <span>SEO & AIO</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[#761318] text-xs leading-none">•</span>
-                <span>Promotional Products</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[#761318] text-xs leading-none">•</span>
-                <span>Events & Campaigns</span>
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[#761318] text-xs leading-none">•</span>
-                <span>Business Apparel</span>
               </li>
             </ul>
           </div>

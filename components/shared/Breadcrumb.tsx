@@ -41,10 +41,11 @@ const SERVICE_SLUG_TITLES: Record<string, string> = {
   about: "About Us",
   contact: "Contact Us",
   "promotional-products": "Promotional Products",
-  "seo-aio": "SEO & AIO",
-  "event-and-campaign-strategy": "Event and Campaign Strategy",
-  "business-apparels": "Business Apparels",
+  "event-and-campaign-strategy": "Event & Campaign Strategy",
+  "business-apparels": "Business Apparel",
+  "business-apparel": "Business Apparel",
   "digital-marketing-strategy": "Digital Marketing Strategy",
+  "seo-aio": "SEO & AIO",
 };
 
 // Convert url slug to friendly title (e.g. "featured-products" -> "Featured Products")

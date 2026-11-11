@@ -51,6 +51,7 @@ export const Navbar: React.FC = () => {
             <path d="M11 8v6M8 11h6" />
           </svg>
         );
+      case "Event & Campaign Strategy":
       case "Event and Campaign Strategy":
         return (
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -60,6 +61,7 @@ export const Navbar: React.FC = () => {
             <line x1="3" y1="10" x2="21" y2="10" />
           </svg>
         );
+      case "Business Apparel":
       case "Business Apparels":
         return (
           <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

@@ -132,8 +132,8 @@ const EventStrategyIcon: React.FC = () => (
   </svg>
 );
 
-// 4. Business Apparels Icon (T-Shirt & Polo Shirt)
-const BusinessApparelsIcon: React.FC = () => (
+// 4. Business Apparel Icon (T-Shirt & Polo Shirt)
+const BusinessApparelIcon: React.FC = () => (
   <svg
     viewBox="0 0 64 64"
     fill="none"
@@ -232,25 +232,18 @@ export const servicesData: ServiceItem[] = [
     icon: <PromotionalProductsIcon />,
   },
   {
-    id: "seo-aio",
-    title: "SEO & AIO",
-    description:
-      "Increase your search visibility and appear in both traditional and AI-powered search results to attract more clients.",
-    icon: <SeoAioIcon />,
-  },
-  {
     id: "event-campaign-strategy",
-    title: "Event and Campaign Strategy",
+    title: "Event & Campaign Strategy",
     description:
       "Plan and execute engaging events and targeted campaigns that build relationships and drive real results.",
     icon: <EventStrategyIcon />,
   },
   {
     id: "business-apparels",
-    title: "Business Apparels",
+    title: "Business Apparel",
     description:
       "High-quality branded apparel for your team, clients, and events that strengthens your brand identity.",
-    icon: <BusinessApparelsIcon />,
+    icon: <BusinessApparelIcon />,
   },
   {
     id: "digital-marketing-strategy",
@@ -258,6 +251,13 @@ export const servicesData: ServiceItem[] = [
     description:
       "Create engaging content, manage social media, and run targeted campaigns that increase brand awareness and generate new business.",
     icon: <DigitalMarketingIcon />,
+  },
+  {
+    id: "seo-aio",
+    title: "SEO & AIO",
+    description:
+      "Increase your search visibility and appear in both traditional and AI-powered search results to attract more clients.",
+    icon: <SeoAioIcon />,
   },
 ];
 

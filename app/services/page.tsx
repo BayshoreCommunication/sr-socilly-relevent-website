@@ -6,11 +6,11 @@ import { servicesData } from "@/components/home/OurServices";
 export const metadata: Metadata = {
   title: "Our Services | SR - Socially Relevant Promo",
   description:
-    "Explore our complete marketing and promotional services: Promotional Products, SEO & AIO, Event and Campaign Strategy, Business Apparels, and Digital Marketing Strategy.",
+    "Explore our complete marketing and promotional services: Promotional Products, Event & Campaign Strategy, Business Apparel, Digital Marketing Strategy, and SEO & AIO.",
   openGraph: {
     title: "Our Services | SR - Socially Relevant Promo",
     description:
-      "Explore our complete marketing and promotional services: Promotional Products, SEO & AIO, Event and Campaign Strategy, Business Apparels, and Digital Marketing Strategy.",
+      "Explore our complete marketing and promotional services: Promotional Products, Event & Campaign Strategy, Business Apparel, Digital Marketing Strategy, and SEO & AIO.",
     url: "https://sr-socilly-relevent-website.vercel.app/services",
   },
 };
