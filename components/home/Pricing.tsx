@@ -155,7 +155,7 @@ export const Pricing: React.FC = () => {
               {/* Right Column: High Quality Product Kit Mockup Image */}
               <div className="sm:col-span-5 relative w-full h-[320px] sm:h-full min-h-[300px] sm:min-h-full flex items-center justify-center">
                 <Image
-                  src="/images/home/pricing/membership-kit.png"
+                  src="/images/home/pricing/membership-products2.png"
                   alt="360° Membership Promo Kit showcasing branded digital marketing and promotional products"
                   fill
                   sizes="(max-width: 640px) 100vw, 350px"
