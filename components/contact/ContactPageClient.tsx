@@ -545,71 +545,7 @@ export const ContactPageClient: React.FC = () => {
           </div>
         </div>
 
-        {/* ================= 3. FREQUENTLY ASKED QUESTIONS SECTION ================= */}
-        <div className="mt-16 sm:mt-24 pt-12 sm:pt-16 border-t border-[#ebdcb3]/80">
-          <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
-            <span className="font-lora text-xs font-bold uppercase tracking-widest text-[#761318] block mb-2">
-              Common Questions
-            </span>
-            <h2 className="font-lora text-2xl sm:text-3xl font-bold text-[#171717]">
-              Need Quick Answers?
-            </h2>
-            <p className="font-lora text-sm sm:text-base text-[#5a5043] mt-2">
-              Here are answers to the most frequent inquiries from our clients.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {/* FAQ Card 1 */}
-            <div className="bg-[#fbf8ed] border border-[#ebdcb3] rounded-2xl p-6 sm:p-7 space-y-2.5">
-              <div className="w-9 h-9 rounded-lg bg-[#761318]/10 text-[#761318] flex items-center justify-center font-bold text-sm">
-                01
-              </div>
-              <h3 className="font-lora font-bold text-base sm:text-lg text-[#171717]">
-                Can I place an order over the phone?
-              </h3>
-              <p className="font-lora text-xs sm:text-sm text-[#4a4237] leading-relaxed">
-                Yes! We frequently handle telephone orders. Just call us at{" "}
-                <a href="tel:8136790524" className="font-semibold text-[#761318] underline">
-                  813.679.0524
-                </a>{" "}
-                and an account manager will walk you through product selection, artwork, and shipping.
-              </p>
-            </div>
-
-            {/* FAQ Card 2 */}
-            <div className="bg-[#fbf8ed] border border-[#ebdcb3] rounded-2xl p-6 sm:p-7 space-y-2.5">
-              <div className="w-9 h-9 rounded-lg bg-[#761318]/10 text-[#761318] flex items-center justify-center font-bold text-sm">
-                02
-              </div>
-              <h3 className="font-lora font-bold text-base sm:text-lg text-[#171717]">
-                Do I get to preview products before printing?
-              </h3>
-              <p className="font-lora text-xs sm:text-sm text-[#4a4237] leading-relaxed">
-                Always. We create complimentary high-resolution digital mockups
-                showing your exact logo, colors, and placement. Production only
-                begins once you formally approve the proof.
-              </p>
-            </div>
-
-            {/* FAQ Card 3 */}
-            <div className="bg-[#fbf8ed] border border-[#ebdcb3] rounded-2xl p-6 sm:p-7 space-y-2.5">
-              <div className="w-9 h-9 rounded-lg bg-[#761318]/10 text-[#761318] flex items-center justify-center font-bold text-sm">
-                03
-              </div>
-              <h3 className="font-lora font-bold text-base sm:text-lg text-[#171717]">
-                What are your production and shipping turnarounds?
-              </h3>
-              <p className="font-lora text-xs sm:text-sm text-[#4a4237] leading-relaxed">
-                Standard turnaround is 7–10 business days after proof approval.
-                We also offer expedited 24–48 hour rush production on select
-                apparel, drinkware, and event supplies.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* ================= 4. BOTTOM ACTION STRIP ================= */}
+        {/* ================= 3. BOTTOM ACTION STRIP ================= */}
         <div className="mt-12 sm:mt-16 bg-gradient-to-r from-[#761318] to-[#550c10] text-[#fffceb] rounded-2xl p-8 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6 shadow-md">
           <div className="space-y-1.5 text-center md:text-left">
             <h3 className="font-lora text-xl sm:text-2xl font-bold">
