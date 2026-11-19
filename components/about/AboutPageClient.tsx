@@ -208,7 +208,7 @@ export const AboutPageClient: React.FC = () => {
           </div>
 
           <div className="space-y-12 sm:space-y-16 max-w-5xl mx-auto">
-            {/* Member 1: Jessica Sells */}
+            {/* Member 1: Jessica Yates */}
             <div
               id="team-jessica"
               className="scroll-mt-28 bg-[#fbf8ed] border border-[#ebdcb3] rounded-3xl p-6 sm:p-10 shadow-sm relative overflow-hidden transition-all hover:shadow-md"
@@ -219,7 +219,7 @@ export const AboutPageClient: React.FC = () => {
                 <div className="relative z-10 w-[180px] sm:w-[210px] md:w-[230px] aspect-[112/165] shrink-0 rounded-full border-2 border-[#800b10] overflow-hidden shadow-md bg-[#3a0609]">
                   <Image
                     src="/images/home/founders/jessica-yates2.png"
-                    alt="Jessica Sells - CEO & Brand Strategist"
+                    alt="Jessica Yates - CEO & Brand Strategist"
                     fill
                     sizes="(max-width: 768px) 210px, 240px"
                     className="object-cover object-center"
@@ -233,7 +233,7 @@ export const AboutPageClient: React.FC = () => {
                     Brand Strategy & Leadership
                   </span>
                   <h3 className="font-lora text-2xl sm:text-3xl font-bold text-[#171717]">
-                    Jessica Sells
+                    Jessica Yates
                   </h3>
                   <p className="font-lora font-semibold text-sm sm:text-base text-[#171717] mt-1">
                     CEO & Brand Strategist
@@ -244,7 +244,7 @@ export const AboutPageClient: React.FC = () => {
 
                   <div className="space-y-3.5 font-lora text-sm sm:text-base text-[#3d362e] leading-relaxed">
                     <p>
-                      Jessica Sells got her start working in her dad’s promotional products business, learning firsthand how tangible items can shape brand identity. Now with over a decade of experience and a background in digital marketing, she leads Socially Relevant Promo with a strategy-first approach that blends physical products with digital awareness.
+                      Jessica Yates got her start working in her dad’s promotional products business, learning firsthand how tangible items can shape brand identity. Now with over a decade of experience and a background in digital marketing, she leads Socially Relevant Promo with a strategy-first approach that blends physical products with digital awareness.
                     </p>
                     <p>
                       From everyday merch to campaign-driven pieces, Jessica helps businesses turn branded products into powerful tools that build visibility, trust, and relevance, on every platform.
