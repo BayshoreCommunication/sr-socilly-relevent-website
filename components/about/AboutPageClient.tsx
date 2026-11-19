@@ -235,13 +235,16 @@ export const AboutPageClient: React.FC = () => {
                   <h3 className="font-lora text-2xl sm:text-3xl font-bold text-[#171717]">
                     Jessica Sells
                   </h3>
-                  <p className="font-lora font-semibold text-sm sm:text-base text-[#761318] mt-1 mb-5">
-                    COO & Brand Strategist | Relevant Promos
+                  <p className="font-lora font-semibold text-sm sm:text-base text-[#171717] mt-1">
+                    CEO & Brand Strategist
+                  </p>
+                  <p className="font-lora font-medium text-sm sm:text-base text-[#761318] mb-5">
+                    Socially Relevant Promo
                   </p>
 
                   <div className="space-y-3.5 font-lora text-sm sm:text-base text-[#3d362e] leading-relaxed">
                     <p>
-                      Jessica Sells got her start working in her dad’s promotional products business, learning firsthand how tangible items can shape brand identity. Now with over a decade of experience and a background in digital marketing, she leads Relevant Promos with a strategy-first approach that blends physical products with digital awareness.
+                      Jessica Sells got her start working in her dad’s promotional products business, learning firsthand how tangible items can shape brand identity. Now with over a decade of experience and a background in digital marketing, she leads Socially Relevant Promo with a strategy-first approach that blends physical products with digital awareness.
                     </p>
                     <p>
                       From everyday merch to campaign-driven pieces, Jessica helps businesses turn branded products into powerful tools that build visibility, trust, and relevance, on every platform.
@@ -278,8 +281,11 @@ export const AboutPageClient: React.FC = () => {
                   <h3 className="font-lora text-2xl sm:text-3xl font-bold text-[#171717]">
                     Paul Vilim
                   </h3>
-                  <p className="font-lora font-semibold text-sm sm:text-base text-[#761318] mt-1 mb-5">
-                    Director of Operations & Sourcing | Relevant Promos
+                  <p className="font-lora font-semibold text-sm sm:text-base text-[#171717] mt-1">
+                    Director of Operations & Sourcing
+                  </p>
+                  <p className="font-lora font-medium text-sm sm:text-base text-[#761318] mb-5">
+                    Socially Relevant Promo
                   </p>
 
                   <div className="space-y-3.5 font-lora text-sm sm:text-base text-[#3d362e] leading-relaxed">
@@ -287,7 +293,7 @@ export const AboutPageClient: React.FC = () => {
                       With a background in luxury hospitality and over a decade in marketing and business development, Paul brings operational precision and product expertise to the table.
                     </p>
                     <p>
-                      At Relevant Promos, he oversees sourcing, vendor partnerships, and backend logistics, ensuring every branded order is delivered on time, on budget, and exactly as planned.
+                      At Socially Relevant Promo, he oversees sourcing, vendor partnerships, and backend logistics, ensuring every branded order is delivered on time, on budget, and exactly as planned.
                     </p>
                   </div>
                 </div>

@@ -58,8 +58,11 @@ export const MeetOurFounders: React.FC = () => {
                   <h3 className="font-lora font-bold text-base sm:text-lg text-[#171717] leading-tight">
                     Jessica Yates
                   </h3>
-                  <p className="font-sans font-semibold text-xs sm:text-[13px] text-[#171717] mt-0.5">
-                    CEO & Brand Strategist | Socially Relevant
+                  <p className="font-sans font-semibold text-xs sm:text-[13px] text-[#171717] mt-1">
+                    CEO & Brand Strategist
+                  </p>
+                  <p className="font-sans font-medium text-xs sm:text-[13px] text-[#761318]">
+                    Socially Relevant Promo
                   </p>
                 </div>
 
@@ -108,8 +111,11 @@ export const MeetOurFounders: React.FC = () => {
                   <h3 className="font-lora font-bold text-base sm:text-lg text-[#171717] leading-tight">
                     Paul Vilim
                   </h3>
-                  <p className="font-sans font-semibold text-xs sm:text-[13px] text-[#171717] mt-0.5">
-                    Director of Operations & Sourcing | Socially Relevant
+                  <p className="font-sans font-semibold text-xs sm:text-[13px] text-[#171717] mt-1">
+                    Director of Operations & Sourcing
+                  </p>
+                  <p className="font-sans font-medium text-xs sm:text-[13px] text-[#761318]">
+                    Socially Relevant Promo
                   </p>
                 </div>
               </div>
@@ -155,8 +161,11 @@ export const MeetOurFounders: React.FC = () => {
                 <h3 className="font-lora font-bold text-base sm:text-lg text-[#171717] leading-tight">
                   Bentley Sells
                 </h3>
-                <p className="font-sans font-semibold text-xs sm:text-[13px] text-[#171717] mt-0.5">
-                  Chief Happiness Officer (CHO) | Socially Relevant
+                <p className="font-sans font-semibold text-xs sm:text-[13px] text-[#171717] mt-1">
+                  Chief Happiness Officer (CHO)
+                </p>
+                <p className="font-sans font-medium text-xs sm:text-[13px] text-[#761318]">
+                  Socially Relevant Promo
                 </p>
               </div>
             </div>

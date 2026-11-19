@@ -141,7 +141,7 @@ export const Pricing: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="font-bold text-white text-xs sm:text-sm leading-snug">
-                        Marketing Strategy & Support
+                        Integrated Brand Strategy and Support
                       </h4>
                       <p className="text-white/80 text-[11px] sm:text-xs leading-relaxed">
                         Monthly planning, performance reviews, and
@@ -153,13 +153,13 @@ export const Pricing: React.FC = () => {
               </div>
 
               {/* Right Column: High Quality Product Kit Mockup Image */}
-              <div className="sm:col-span-5 relative w-full h-[320px] sm:h-full min-h-[300px] sm:min-h-full rounded-2xl overflow-hidden border border-white/15 shadow-md">
+              <div className="sm:col-span-5 relative w-full h-[320px] sm:h-full min-h-[300px] sm:min-h-full flex items-center justify-center">
                 <Image
-                  src="/images/home/pricing/membership-products1.png"
-                  alt="360° Membership Promo Kit showcasing branded tumblers, caps, journals, and pens"
+                  src="/images/home/pricing/membership-kit.png"
+                  alt="360° Membership Promo Kit showcasing branded digital marketing and promotional products"
                   fill
                   sizes="(max-width: 640px) 100vw, 350px"
-                  className="object-cover object-center"
+                  className="object-contain object-center drop-shadow-[0_15px_30px_rgba(0,0,0,0.4)] transition-transform duration-500 hover:scale-[1.02]"
                 />
               </div>
             </div>
