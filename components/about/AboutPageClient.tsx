@@ -219,7 +219,7 @@ export const AboutPageClient: React.FC = () => {
                 <div className="relative z-10 w-[180px] sm:w-[210px] md:w-[230px] aspect-[112/165] shrink-0 rounded-full border-2 border-[#800b10] overflow-hidden shadow-md bg-[#3a0609]">
                   <Image
                     src="/images/home/founders/jessica-yates2.png"
-                    alt="Jessica Sells - COO & Brand Strategist"
+                    alt="Jessica Sells - CEO & Brand Strategist"
                     fill
                     sizes="(max-width: 768px) 210px, 240px"
                     className="object-cover object-center"
@@ -327,8 +327,11 @@ export const AboutPageClient: React.FC = () => {
                   <h3 className="font-lora text-2xl sm:text-3xl font-bold text-[#171717]">
                     Bentley Sells
                   </h3>
-                  <p className="font-lora font-semibold text-sm sm:text-base text-[#761318] mt-1 mb-5">
-                    Chief Happiness Officer (CHO) | Relevant Promos
+                  <p className="font-lora font-semibold text-sm sm:text-base text-[#171717] mt-1">
+                    Chief Happiness Officer (CHO)
+                  </p>
+                  <p className="font-lora font-medium text-sm sm:text-base text-[#761318] mb-5">
+                    Socially Relevant Promo
                   </p>
 
                   <div className="space-y-3.5 font-lora text-sm sm:text-base text-[#3d362e] leading-relaxed">
